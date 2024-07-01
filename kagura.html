@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Kagura</title>
+</head>
+<body>
+    <div class="main">
+        <div class="nav">
+            <div class="hamburger" id="hamburger">&#9776;</div>
+            <h1 class="logo">Fandom<span>.</span></h1>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </div>
+
+        <script>
+      document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', function() {
+        navLinks.classList.toggle('show');
+    });
+});
+    </script>
+
+    <!-- Content Page    -->
+     <section id="Home">
+     <div class="content-container" id="content">
+        <div class="main-text">
+            <div class="column" >
+                    <h1 class="name">KAGURA</h1>
+                    <h3 class="voice-line">Kagura Voice line</h3>
+                    <audio id="myAudio" src="https://static.wikia.nocookie.net/mobile-legends/images/b/b3/Kagura.revamp.move01.ogg/revision/latest?cb=20210904164005" width="180" style="display:none ;max-width: 100%; width: 180px;" controls=""><a href="https://mobile-legends.fandom.com/wiki/File:Kagura.revamp.move01.ogg">https://mobile-legends.fandom.com/wiki/File:Kagura.revamp.move01.ogg</a></audio>
+                    <p class="quote"> "I believe in the goodness of people, but I'll get to you if you upset me."</p>
+                    <a class="link" href="https://www.youtube.com/watch?v=xxO7mD21P6Y" target="_blank">Play <i class="fa fa-play" aria-hidden="true"></i></a>
+            </div>
+       
+            <div class="column">
+                
+                 <img class="kagura" src="./background.png" alt="Click me" id="imageClick" onclick="document.getElementById('audio').play();">
+                <!-- <img class="kagura" src="./background.png" > -->
+                                    
+                <!-- Audio element with the source of your audio file -->
+                <audio id="audio" src="voice.mp3"></audio>
+            </div>
+        </div>
+    </div>
+
+     </div>
+    </section>
+     <!-- Content Page End -->
+
+     <section id="about">
+        <div class="about-kagura">
+            <h1>ABOUT</h1>
+        </div>
+    
+        <div class="column kags">
+            <img class="img-about" src="./img-about.jpg" alt="">
+        </div>
+    
+        <div class="column">
+            <p class="description"> A genius Onmyouji Master that inherited the ancestral treasure Seimei Umbrella. As descendant of Onmyouji Master Seimei, Kagura had been an unruly, quirky child ever since she lost her parents at an early age. But for some mysterious reason, the treasure Seimei Umbrella chose her to be its rightful owner.
+                Kagura is a dance based on Japanese mythology, translated as "entertaining the gods." Originally called "kamukura" or "kamikura," kagura dances are thought to have been very simple, similar to miko (shrine maiden) dances or puppet dances. Kagura is performed in many other parts of Japan.
+
+            </p>
+        </div>
+    </div>
+    </section>
+    
+
+<div class="skills-header">
+        <h1>Skills</h1>
+    <section id ="skills">
+   
+        <div class="container2">
+            <div class="card">
+                <div class="img-skl">
+                    <img src="./skill1.webp" alt="">
+                </div>
+                <div class="content-skl">
+                    <h2>Seimei Umbrella Open</h2>
+                    <p>Kagura moves Seimei Umbrella to a designated area, dealing 315 / 370 / 425 / 480 / 535 / 590 
+                        (+105% Total Magic Power) Magic Damage to enemies along the way and slowing them by 60% for 0.5 second.</p>
+                    <a href="#" style="margin-top: 25px;">Read More</a>
+                </div>
+            </div>
+            <!-- . -->
+            <div class="card">
+                <div class="img-skl">
+                    <img src="./skill2.webp" alt="">
+                </div>
+                <div class="content-skl">
+                    <h2>Rasho Umbrella Flee</h2>
+                    <p>With Seimei Umbrella, Kagura removes Crowd Control effects on her and moves in a designated direction, 
+                        leaving the Seimei Umbrella behind.</p>
+                    <a href="#" style="margin-top: 70px;">Read More</a>
+                </div>
+            </div>
+            <!-- . -->
+            <div class="card">
+                <div class="img-skl">
+                    <img src="./skill3.webp" alt="">
+                </div>
+                <div class="content-skl">
+                    <h2>Yin Yang Overturn</h2>
+                    <p>With Seimei Umbrella, Kagura deals 330 / 400 / 470 (+105% Total Magic Power) Magic Damage, knocking back 
+                        nearby enemies and slowing them by 60% for 0.5 second.</p>
+                    <a href="#" style="margin-top: 50px;">Read More</a>
+                </div>
+            </div>
+            <!-- . -->
+            <div class="card">
+                <div class="img-skl">
+                    <img src="./skill4.webp" alt="">
+                </div>
+                <div class="content-skl">
+                    <h2>Seimei Umbrella Open</h2>
+                    <p>Kagura moves Seimei Umbrella to a designated area, dealing 315 / 370 / 425 / 480 / 535 / 590 (+105% Total 
+                        Magic Power) Magic Damage to enemies along the way and slowing them by 60% for 0.5 second.</p>
+                    <a href="#" style="margin-top: 30px;">Read More</a>
+                </div>
+            </div>
+            <!-- . -->
+            <div class="card">
+                <div class="img-skl">
+                    <img src="./skill5.webp" alt="">
+                </div>
+                <div class="content-skl">
+                    <h2>Rasho Umbrella Flee</h2>
+                    <p>Without Seimei Umbrella, Kagura moves to the umbrella and takes it, dealing 300 / 320 / 340 / 360 / 380 / 400 
+                        (+90% Total Magic Power) Magic Damage to nearby enemies.</p>
+                    <a href="#" style="margin-top: 50px;">Read More</a>
+                </div>
+            </div>
+            <!-- . -->
+            <div class="card">
+                <div class="img-skl">
+                    <img src="./skill6.webp" alt="">
+                </div>
+                <div class="content-skl">
+                    <h2>Yin Yang Overturn</h2>
+                    <p style="font-size: 14px;">When without Seimei Umbrella, Kagura immediately resets Seimei Umbrella Open Seimei Umbrella Open's cooldown, 
+                        deals 290 / 340 / 390 (+70% Total Magic Power) Magic Damage to enemies in a small area, and slows them down by 
+                        60%. After 1.5, enemies heroes around the Seimei Umbrella will be pulled towards it and take 400 / 500 / 600 
+                        (+145% Total Magic Power) Magic Damage.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+            </section
+            <!-- .  -->
+        </div>
+    </div>
+</div>
+
+<script>
+    function playSound() {
+        var audio = document.getElementById('myAudio');
+        audio.play();
+         }
+</script>
+<script>
+    // When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+  <!-- Include JavaScript at the end of the body -->
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+  // Get the image element by its ID
+  var image = document.getElementById("imageClick");
+
+  // Get the audio element by its ID
+  var audio = document.getElementById("audio");
+
+  // Add a click event listener to the image
+  image.addEventListener("click", function() {
+    // Check if audio is paused or not
+    if (audio.paused) {
+      audio.play(); // Play the audio
+    } else {
+      audio.pause(); // Pause the audio if already playing
+      audio.currentTime = 0; // Reset audio to the beginning
+    }
+  });
+});document.addEventListener("DOMContentLoaded", function() {
+  // Get the image element by its ID
+  var image = document.getElementById("imageClick");
+
+  // Get the audio element by its ID
+  var audio = document.getElementById("audio");
+
+  // Add a click event listener to the image
+  image.addEventListener("click", function() {
+    // Check if audio is paused or not
+    if (audio.paused) {
+      audio.play(); // Play the audio
+    } else {
+      audio.pause(); // Pause the audio if already playing
+      audio.currentTime = 0; // Reset audio to the beginning
+    }
+  });
+});
+  </script>
+  
+</body>
+</html>
